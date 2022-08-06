@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Landing Page</title>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+                sm: '480px',
+                md: '768px',
+                lg: '976px',
+                xl: '1440px',
+            },
+            extend: {
+              colors: {
+                cranberry: '#9f000f',
+                westernCharcoal: '#49413f',
+                orange: '#dc381f',
+                snow: '#fffafa',
+                white: '#ffffff',
+              },
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <main class=" bg-snow">
+        <div class="container mx-auto pb-20">
+            <div class="mx-auto p-8">
+                <img class="mx-auto pt-10" src="image/zuri-logo-full.svg" alt="">
+            </div>
+            <div class="flex flex-col justify-between items-center space-y-10 mx-auto p-6 md:px-40">
+                <h1 class="text-4xl font-semibold text-westernCharcoal mt-6">Learn, Build, Grow.</h1>
+                <div class="md:break-words md:px-40">
+                    <p class="text-westernCharcoal text-lg font-normal md:px-8 text-center">Unlock your Brilliance with our hands-on <span class="text-orange"><a href="#"> beginner</a></span> and <span class="text-orange"><a href="#"> expert training.</a></span> Zuri Team has been immensely successful in creating a global network of a highly adept intelligent workforce that can help your company achieve their mission-critical <span class="text-orange"><a href="#"> projects and goals</a></span></p>
+                </div>
+                <div class="flex flex-col space-y-12 md:flex md:flex-row md:space-x-12">
+                    <div class="mx-auto md:mt-12">
+                        <a class="bg-orange border border-orange text-white p-4 px-12  hover:bg-white hover:text-orange hover:border-orange hover:border hover:border-solid font-semibold" href="page2.html">I am new to the industry</a>
+                    </div>
+                    <div class="mx-auto md:mt-12">
+                        <a class="bg-white  border border-solid border-orange text-orange p-4 px-12 hover:bg-orange hover:text-white hover:border-orange hover:border hover:border-solid font-semibold" href="page3.html">I need industry experience</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div class="container mx-auto flex flex-col justify-between items-center space-y-6 md:space-x-4">
+            <h1 class="text-orange mt-24 text-sm font-medium">BY ZURI Team</h1>
+            <div class=" px-6 text-center">
+                <p class="text-westernCharcoal text-2xl font-normal">We cater for every level of <br> expertise and needs in the industry.</p>
+            </div>
+        </div>
+            <div class="container mx-auto flex flex-col justify-between items-center space-y-10 md:flex md:flex-row md:justify-center md:items-center md:space-x-12 mt-12">
+                <div class="flex flex-col justify-center items-start max-w-sm bg-snow md:mt-10 p-6 py-12">
+                    <div class='ml-4'>
+                        <img class="mix-blend-darken" src="image/zuri-training-img.svg" alt="">
+                    </div>
+                    <div class="text-start">
+                        <p class="px-6">We understand a complete beginner cannot become a professional after a few weeks, the aim here is to get you familiar enough with each the tools such that you’ll be able to continue learning on your own with minimal support.</p>
+                    </div>
+                    <div class="mt-10">
+                        <a class="text-orange pl-8 hover:underline" href="">I want to be trained > </a>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-start max-w-sm bg-snow p-6 py-12">
+                    <div class='ml-4'>
+                        <img class="mix-blend-darken" src="image/zuri-internship-img.svg" alt="">
+                    </div>
+                    <div class="text-start">
+                        <p class="px-6">We place you in a work simulation. We give you tasks every week, the tasks ranges from easy to hard as you progress from stage to stage, making it to the final stage means you are ready for actual work.</p>
+                    </div>
+                    <div class="mt-10">
+                        <a class="text-orange pl-8 hover:underline" href="">I want to join the internship > </a>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-start max-w-sm bg-snow p-6 py-12">
+                    <div>
+                        <img class="mix-blend-darken" src="image/zuri-talent-img.svg" alt="">
+                    </div> 
+                    <div class="text-start">
+                        <p class="px-6">Keeping pace with projects and being on the look out for the extremely talented individuals has become ever more challenging. Here is where Zuri Team comes into play to bring the best suited talent for your company</p>
+                    </div> 
+                    <div class="mt-10">
+                        <a class="text-orange pl-8 hover:underline" href="">I am looking for talents > </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto flex flex-col justify-around items-center space-y-8 md:flex md:flex-row md:space-x-4 md:mt-32">
+            <div>
+                <img src="image/zuri-training-img.svg" alt="">
+            </div>
+            <div class="space-y-2">
+                <div>
+                    <h1 class="text-westernCharcoal text-md font-medium ">Links:</h1>
+                </div>
+                <div class="flex flex-col text-orange space-y-2">
+                    <a class="text-sm font-medium" href="#">Store</a>
+                    <a class="text-sm font-medium" href="#">Blogs</a>
+                </div>
+            </div>
+            <div class="space-y-2">
+                <div>
+                    <h1 class="text-westernCharcoal text-md font-medium text-center md:text-start">Contacts:</h1>
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <h1 class="text-sm font-medium text-westernCharcoal text-center md:text-start">8 Jubliee-CMD Road, Magodo, <br> Lagos State.</h1>
+                    <a class="text-sm font-medium text-orange text-center md:text-start" href="#">hello@Zuri.team</a>
+                </div>
+            </div>
+            <div class="space-y-2">
+                <div>
+                    <h1 class="text-westernCharcoal text-md font-medium text-center md:text-start">Follow us:</h1>
+                </div>
+                <div class="flex justify-between items-center space-y-2 space-x-4">
+                    <a class="mt-2" href="#"><img width="20px" src="image/fb.png" alt=""></a>
+                    <a href="#"><img width="20px" src="image/twitter.png" alt=""></a>
+                    <a href="#"><img width="20px" src="image/IG.png" alt=""></a>
+                    <a href="#"><img width="20px" src="image/in.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="divide w-11/12 mx-auto mt-24 md:w-5/6 border border-solid border-b-0 border-t-2">
+
+    <footer>
+        <div class=" container mx-auto h-52 mt-8">
+            <h1 class="mx-auto text-center text-md font-medium text-westernCharcoal">&copy; 2022 ZURI TEAM</h1>
+        </div>
+    </footer>
+</body>
+</html>
