@@ -25,17 +25,22 @@
                 white: '#ffffff',
                 pearlWhite: '#f8f6f0',
                 forestGreen: '#228b22',
-                pearl: '#e1d9d1'
+                pearl: '#e1d9d1',
+                pastelRed: '#f67280', 
               },
             }
           }
         }
+
+        module.exports = {
+            mode : 'jit',
+        }
       </script>
 </head>
 <body class="bg-pearlWhite">
-    <nav class="nav bg-pearlWhite">
+    <nav class="nav bg-pearlWhite z-20">
         <div class="container mx-auto p-12 flex justify-evenly items-center md:flex md:justify-between items-center md:mx-auto md:p-2">
-            <img src="image/I4GLogo.svg" alt="">
+            <img class="img" src="image/I4GLogo.svg" alt="">
             <div>
                 <ul class="flex invisible space-x-6 md:visible">
                     <li>
@@ -53,11 +58,11 @@
                 </ul>
             </div>
             <div class="mb-14 mr-6 md:mb-6">
-                <button class="bg-orange rounded-full p-3 relative top-16 right-4 md:relative md:left-10 md:top-4">
-                    <img width="50px" height="50px" src="image/thumbs.png" alt="">
+                <button class="bg-orange rounded-full p-2 relative top-16 right-4 md:relative md:left-16 md:top-5">
+                    <img class="img" width="60px" height="50px" src="image/thumbs.png" alt="">
                 </button>
-                <button class="bg-orange p-1 px-8 pl-16 md:p-4 md:px-6 md:pl-12 rounded-full">
-                    <h2 class="text-white">Enrol Now</h2>
+                <button class="bg-orange p-1 px-8 pl-16 md:py-2 md:px-6 md:pl-20 rounded-full">
+                    <h2 class="text-white">Enroll Now</h2>
                 </button>
             </div>
         </div>
@@ -68,12 +73,12 @@
                 <h1 class="text-orange text-center">And now your search has ended...</h1>
             </div>
             <div class="flex flex-col p-8 md:flex md:flex-row md:justify-between md:items-center md:p-4">
-                <img class="max-w-sm mix-blend-darken md:mb-32" src="image/lady1.jpg" alt="">
+                <img class="img max-w-sm mix-blend-darken md:mb-32" src="image/lady1.jpg" alt="">
                 <div class="flex flex-col max-w-2xl md:flex md:flex-col md:justify-between md:items-center md:py-6 max-w-2xl">
                     <div class="text-start">
                         <h1 class="text-6xl text-westernCharcoal font-semibold mx-auto">Gain knowledge to help you scale through the tech industry for free.</h1>
                         <div>
-                            <img class="max-w-xs float-right relative right-16 md:right-26 md:top-2" src="image/line.svg" alt="">
+                            <img class="max-w-xs float-right relative right-16 md:right-26 md:top-2 img" src="image/line.svg" alt="">
                         </div>
                     </div>
                     <div class="text-center mt-10 md:mt-4 max-w-lg">
@@ -83,21 +88,21 @@
                         <a  class="text-westernCharcoal bg-orange float-center rounded-full text-white text-xl p-2 px-8" href="#">Enrol Now</a>
                     </div>
                     <div class="flex justify-between items-start mt-4 ">
-                        <img class="md:relative md:right-52 md:bottom-14" src="image/maleface.svg" alt="">
-                        <img class="md:relative md:left-12 md:bottom-14" src="image/section1wire.svg" alt="">
+                        <img class="md:relative md:right-52 md:bottom-14 img" src="image/maleface.svg" alt="">
+                        <img class="md:relative md:left-12 md:bottom-14 img" src="image/section1wire.svg" alt="">
                     </div>
                 </div>
-                    <img class="max-w-xs mix-blend-darken md:mb-32"  src="image/male1.jpg" alt="">
+                    <img class="max-w-xs mix-blend-darken md:mb-32 img"  src="image/male1.jpg" alt="">
             </div>
         </div>
     </main>
     <hr class="container divide w-11/12 mx-auto mt-24 md:w-5/6 border border-solid border-b-0 border-t-2">
     
     <section>
-        <div class=" container mx-auto flex flex-col justify-around items-center mt-10 md:mt-6 md:flex md:flex-row md:justify-between md:items-center">
+        <div class=" container mx-auto flex flex-col justify-around items-center mt-10 md:mt-6 md:flex md:flex-row md:justify-around md:items-center">
             <h1 class="text-2xl max-w-md pl-12 font-medium">INGRESSIVE FOR GOOD WAS LAUNCHED IN JULY 2020 WITH NO DOLLAR IN DONATION...</h1>
-            <div>
-                <img class="w-3/4 mix-blend-darken" src="image/ingresiveReal.jpg" alt="">
+            <div class="img w-3/4 mix-blend-darken ml-20">
+                <img class="" src="image/ingresiveReal.jpg" alt="">
             </div>
             <p class="text-2xl max-w-md ">to help increase the earning power of African youths by providing them with tech skills, community, tools, resources, and jobs... <a class="text-forestGreen underline" href="">Read More</a></p>
         </div>
@@ -106,52 +111,52 @@
     
     <section>
         <div class="container mx-auto">
-            <img class="ml-96 mt-8" src="image/section3wire.svg" alt="">
+            <img class="ml-96 mt-8 img" src="image/section3wire.svg" alt="">
             <div class="flex flex-col mx-auto md:flex md:flex-row md:justify-around md:items-center">
                 <div class="flex flex-col justify-between items-start max-w-2xl break-words p-6">
                     <h1 class="text-orange text-2xl">Why Zuri Training?</h1>
                     <h1 class="text-4xl font-semibold">Here at Zuri, you gain access to enough knowledge to introduce and aid your success in the tech industry.</h1>
                 </div>
                 <div>
-                    <img width="70%" class="mix-blend-darken" src="image/Star.jpg" alt="">
+                    <img width="70%" class="relative mix-blend-darken img" src="image/Star.jpg" alt="">
                 </div>
             </div>
         </div>
     </section>
     <section>
         <div class="container mx-auto flex flex-col justify-center items-center md:grid md:grid-cols-3 md:grid-flow-row gap-0">
-            <div class="flex flex-col justify-evenly space-y-10 bg-orange mt-10 items-start p-4 px-6 max-w-sm rounded hover:mb-10">
-                <img class="relative left-44 bottom-4  md:left-44 md:bottom-4" src="image/curve1.png" alt="">
+            <div class="flex flex-col justify-evenly space-y-10 bg-orange mt-10 items-start p-4 px-6 max-w-sm rounded hover:mb-10 transform transition duration-500 hover:scale-110">
+                <img class="img1 relative left-44 bottom-4  md:left-44 md:bottom-4" src="image/curve1.png" alt="">
                 <h1 class="text-4xl font-bold text-white ">01</h1>
                 <h1 class="text-4xl font-semibold text-white">Fully <br> Remote</h1>
                 <p class="text-lg font-normal text-white">100% Online class available to anyone in the world</p>
             </div>
             <div class="flex flex-col justify-evenly space-y-10 bg-white mt-10 shadow-lg shadow-pearl items-start p-4 px-6 max-w-sm rounded">
-                <img class="relative left-44 bottom-4 md:left-44 md:bottom-4" src="image/curve.svg" alt="">
+                <img class="relative left-44 bottom-4 md:left-44 md:bottom-4 img1" src="image/curve.svg" alt="">
                 <h1 class="text-4xl font-bold ">02</h1>
                 <h1 class="text-4xl font-semibold">Hands-on<br> Experience</h1>
                 <p class="text-md font-medium text-westernCharcoal">We don't just teach you theory, we show you how to build things.</p>
             </div>
             <div class="flex flex-col justify-evenly space-y-10 bg-white mt-10 shadow-lg shadow-pearl items-start p-4 px-6 max-w-sm rounded">
-                <img class="relative left-44 bottom-4  md:left-44 md:bottom-4" src="image/curve3.svg" alt="">
+                <img class="relative left-44 bottom-4  md:left-44 md:bottom-4 img1" src="image/curve3.svg" alt="">
                 <h1 class="text-4xl font-bold">03</h1>
                 <h1 class="text-2xl font-semibold">Collaborative<br> Learning</h1>
                 <p class="text-md font-medium text-westernCharcoal">We connect you with like minds to grow together.</p>
             </div>
             <div class="flex flex-col justify-evenly space-y-10 bg-white mt-10 shadow-lg shadow-pearl items-start p-4 px-6 max-w-sm rounded">
-                <img class="relative left-44 bottom-4 md:left-44 md:bottom-4" src="image/curve4.svg" alt="">
+                <img class="relative left-44 bottom-4 md:left-44 md:bottom-4 img1" src="image/curve4.svg" alt="">
                 <h1 class="text-4xl font-bold">04</h1>
                 <h1 class="text-2xl font-semibold">Real-Life <br> Projects</h1>
                 <p class="text-md font-medium text-westernCharcoal">We give CV worthy projects to help you hit the ground running.</p>
             </div>
             <div class="flex flex-col justify-evenly space-y-10 bg-white mt-10 shadow-lg shadow-pearl items-start p-4 px-6 max-w-sm rounded">
-                <img class="relative left-44 bottom-4 md:left-44 md:bottom-4" src="image/curve5.svg" alt="">
+                <img class="relative left-44 bottom-4 md:left-44 md:bottom-4 img1" src="image/curve5.svg" alt="">
                 <h1 class="text-4xl font-bold">05</h1>
                 <h1 class="text-2xl font-semibold">Beginner <br> Friendly</h1>
                 <p class="text-md font-medium text-westernCharcoal">We provide step-by-step procedures on how to get things done.</p>
             </div>
             <div class="flex flex-col justify-evenly space-y-10 bg-white mt-10 shadow-lg shadow-pearl items-start p-4 px-6 max-w-sm rounded">
-                <img class="relative left-44 bottom-4 md:left-44 md:bottom-4" src="image/curve6.svg" alt="">
+                <img class="relative left-44 bottom-4 md:left-44 md:bottom-4 img1" src="image/curve6.svg" alt="">
                 <h1 class="text-4xl font-bold">06</h1>
                 <h1 class="text-2xl font-semibold">In-Program <br> Mentorship</h1>
                 <p class="text-md font-medium text-westernCharcoal">During and after the program you have access to experience seniors.</p>
@@ -161,9 +166,9 @@
 
     <section class=" bg-orange">
             <div class="container">
-                <img width="70px" class="ml-96 mt-20 pt-20" src="image/section5wire.svg" alt="">
+                <img width="70px" class="ml-96 mt-20 pt-20 img" src="image/section5wire.svg" alt="">
             </div>
-            <div class=" container mx-auto flex flex-col  md:flex md:flex-row md:justify-between md:items-center px-8">
+            <div class=" container mx-auto flex flex-col pb-20  md:flex md:flex-row md:justify-between md:items-center px-8">
                 <div class="container mx-auto flex flex-col">
                     <div class="max-w-md">
                         <h3 class="text-xl text-white font-medium">We will help you get started</h3>
@@ -171,28 +176,330 @@
                         <p class="text-xl text-white mt-10">We give you weekly tasks, ranging from easy to complex, as you progress from stage to stage; making it to the final stage means you are now ready to continue learning and growing independently.</p>
                     </div>
                     <div class="mt-10">
-                        <a  class="rounded-full bg-white p-2 px-6 text-orange text-xl" href="#">Enrol Now</a>
+                        <a  class="rounded-full bg-white p-2 px-6 text-orange text-xl" href="#">Enroll Now</a>
                     </div>
                     <div class="mt-10 grid grid-cols-2 grid-flow-row max-w-lg gap-2"> 
-                        <a class="rounded-full bg-orange p-4 px-16 text-center max-w-xs text-white text-xl borer border-solid border-white border-2 gap-2" href=""><img width="50px" class="absolute" src="Image/hand.svg" alt="">
-                            Teamwork</a>
-                        <a class="rounded-full bg-orange p-4 px-8 text-center max-w-xs text-white text-xl borer border-solid border-white border-2 gap-2" href=""><img width="50px" class="absolute" src="Image/mentor.svg" alt="">
+                        <!-- <a class="rounded-full bg-orange p-4 px-16 text-center max-w-xs text-white text-xl border border-solid border-white border-2 gap-2" href="">
+                            <img width="50px" class="absolute" src="Image/hand.svg" alt="">
+                            Teamwork</a> -->
+
+                        <div class="flex rounded-full bg-orange border border-solid border-white border-2 p-2">
+                            <div class="mr-4"><img width="50px" src="image/hand.svg" alt=""></div>
+                            <div class="text-white text-xl pt-2 pl-2">Teamwork</div>
+                        </div>
+                        <div class="flex rounded-full bg-orange border border-solid border-white border-2 p-2">
+                            <div class="mr-4"><img width="50px" src="image/mentor.svg" alt=""></div>
+                            <div class="text-white text-xl pt-2 pl-2">Mentorship</div>
+                        </div>
+                        <div class="flex rounded-full bg-orange border border-solid border-white border-2 p-2">
+                            <div class="mr-4"><img width="50px" src="image/practice.svg" alt=""></div>
+                            <div class="text-white text-xl pt-2 pl-2">Practice</div>
+                        </div>
+                        <div class="flex rounded-full bg-orange border border-solid border-white border-2 p-2">
+                            <div class="mr-4"><img width="50px" src="image/games.svg" alt=""></div>
+                            <div class="text-white text-xl pt-2 pl-2">Fun & Games</div>
+                        </div>
+                        <!-- <a class="rounded-full bg-orange p-4 px-8 text-center max-w-xs text-white text-xl borer border-solid border-white border-2 gap-2" href=""><img width="50px" class="absolute" src="Image/mentor.svg" alt="">
                             Practice</a>  
                         <a class="rounded-full bg-orange p-4 px-8 text-center max-w-xs text-white text-xl borer border-solid border-white border-2 gap-2" href=""><img width="50px" class="absolute" src="Image/practice.svg" alt="">
                             Fun & Game</a>
                         <a class="rounded-full bg-orange p-4 px-8 text-center max-w-xs text-white text-xl borer border-solid border-white border-2 gap-2" href=""><img width="50px" class="absolute" src="Image/games.svg" alt="">
-                            Fun & Game</a> 
+                            Fun & Game</a>  -->
                     </div>
+                    <div class="mt-14 mr-14">
+                        <img src="image/dotsection5.svg" alt="">
+                    </div> 
                 </div>
                 <div>
                     <img src="image/section5-image.png" alt="">
                 </div>
-
-            </div>
-                
+            </div>     
         </div>
     </section>
 
+<section>
+    <div class="container mx-auto p-8">
+        <h1 class="text-orange text-2xl mt-10">Scope Of Program</h1>
+        <p class="text-4xl max-w-2xl font-bold">Here is the list of areas that will be explored in the training.</p>
+        <img class="mx-auto" width="170px" src="image/section6.svg" alt="">
+    </div>
+    <br>
+    <div class="container mx-auto flex flex-col justify-center items-center md:grid md:grid-cols-3 md:grid-flow-row md:justify-items-center gap-4">
+        <div class="flex flex-col justify-between items-start max-w-md pl-12 pt-14 rounded-3xl space-y-6 p-6 bg-white shadow-4xl shadow-snow">
+            <h1 class="text-lg font-bold ">Frontend Development</h1>
+            <div class="flex space-x-4">
+                <img width="40px" src="Image/html.svg" alt="">
+                <img width="40px" src="Image/css-3 logo.svg" alt="">
+                <img width="50px" src="Image/javascript logo.svg" alt="">
+            </div>
+            <p class="pt-8 text-westernCharcoal max-w-md">This track deals with the aspect of your application that the users interact with. A front-end developer will be able to correctly interpret a given design to the user interface.</p>
+        </div>
+        <div class="flex flex-col justify-between items-start max-w-md bg-white p-6 space-y-6 rounded-3xl pl-12 pt-12">
+            <h1 class="text-lg font-bold">Backend Development</h1>
+            <div class="flex space-x-4">
+                <img width="45px" src="Image/php2 logo.svg" alt="">
+                <img width="45px" src="Image/python-4 logo.svg" alt="">
+                <img width="45px" src="Image/javascript logo.svg" alt="">
+            </div>
+            <p class="pt-8 text-westernCharcoal max-w-md">This track deals with the aspect of the application the user does not directly interact with. It allows the frontend function either by running some back-end code or connecting to the database.</p>
+        </div>
+        <div>
+            <div class="flex flex-col justify-between items-start max-w-md bg-white p-6 space-y-6 rounded-3xl pl-12 pt-12">
+                <h1 class="text-lg font-bold">Product Design</h1>
+                <div class="flex space-x-4">
+                    <img width="40px" src="Image/adobe-xd logo.svg" alt="">
+                    <img width="90px" src="Image/Figma logo.svg" alt="">
+                </div>
+                <p class="pt-8 text-westernCharcoal max-w-md">This track deals with creating a graphic plan for an application. You will learn to convert project documentation into viewable and understandable graphic design for the developers to work with.</p>
+            </div>
+        </div>
+        <div>
+            <div class="flex flex-col justify-between items-start max-w-md bg-white p-6 space-y-6 rounded-3xl pl-12 pt-12">
+                <h1 class="text-lg font-bold">DevOPS</h1>
+                <div class="flex space-x-4">
+                    <img width="45px" src="Image/Ubuntu logo.svg" alt="">
+                    <img width="45px" src="Image/Bash logo.svg" alt="">
+                    <img width="45px" src="Image/aws logo.svg" alt="">
+                </div>
+                <p class="pt-8 text-westernCharcoal max-w-md">This track deals with creating a graphic plan for an application. You will learn to convert project documentation into viewable and understandable graphic design for the developers to work with.</p>
+            </div>
+        </div>
+        <div>
+            <div class="flex flex-col justify-between items-start max-w-md bg-white p-6 space-y-6 rounded-3xl pl-12 pt-12">
+                <h1 class="text-lg font-bold">Fullstack Development</h1>
+                <div class="flex space-x-4">
+                    <img width="40px" src="Image/html.svg" alt="">
+                    <img width="40px" src="Image/css-3 logo.svg" alt="">
+                    <img width="40px" src="Image/javascript logo.svg" alt="">
+                    <img width="45px" src="Image/python-4 logo.svg" alt="">
+                </div>
+                <p class="pt-8 text-westernCharcoal max-w-md">A combination of frontend, backend, and DevOps. This track will only be available to participants who have the time to dedicate to the training.</p>
+            </div>
+        </div>
+        <div>
+            <div class="flex flex-col justify-between items-start max-w-md bg-white p-6 space-y-6 rounded-3xl pl-12 pt-12">
+                <h1 class="text-lg font-bold">Framework</h1>
+                <div class="flex space-x-4">
+                    <img width="100px" src="Image/Laravel logo.svg" alt="">
+                    <img width="100x" src="Image/React logo.svg" alt="">
+                    <img width="70px" src="Image/Django logo.svg" alt="">
+                </div>
+                <p class="pt-8 text-westernCharcoal max-w-md">A combination of frontend, backend, and DevOps. This track will only be available to participants who have the time to dedicate to the training.</p>
+            </div>
+        </div>
+    </div>
+    <div class="mx-auto text-center mt-20">
+        <a class="rounded-full bg-orange p-2 px-6 text-white text-xl" href="#">Enroll Now</a>
+    </div>
+</section>
 
+<hr class="divide w-11/12 mx-auto mt-24 md:w-5/6 border border-solid border-b-0 border-t-2">
+
+<section>
+    <div class="container mx-auto">
+        <img class=" md:mt-10 md:ml-44" width="200px" src="image/section7wire.svg" alt="">
+        <div class="leading-tight">
+            <h1 class="text-orange text-2xl text-center md:relative md:bottom-12">Got Questions?</h1>
+        <h1 class="text-5xl font-bold text-center">Frequently Asked Questions</h1>
+        </div>
+        <div class="container mx-auto shadow-2xl border border-t-0 border-l-0 border-solid border-black md:w-4/5 border-r-0 border-b-0  mt-10 mb-12">
+            <div class="overflow-hidden border border-solid border-r-1 border-black">
+                <label>
+                    <input class="absolute opacity-0 peer" type="checkbox">
+                <h1 class="p-5 inline-block text-xl font-medium">Would I have to pay to enroll for the training?</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block float-right mt-5 mr-10 duration-300 peer-checked:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+                  </svg>
+                <div class="max-h-0 peer-checked:max-h-screen duration-300 ease-in-out"><p class="p-5">No, the program is completely free thanks to Ingressive For Good</p></div>
+                </label>
+            </div>
+            <div class="overflow-hidden border border-t-0 border-l-1  border-solid border-r-1 border-black">
+                <label>
+                    <input class="absolute opacity-0 peer" type="checkbox">
+                <h1 class="p-5 inline-block text-xl font-medium">What are the things I would need to participate?</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block float-right mt-5 mr-10 duration-300 peer-checked:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+                  </svg>
+                <div class="max-h-0 peer-checked:max-h-screen duration-300 ease-in-out"><p class="p-5">You'll need a laptop, internet connection and the willingness to learn through collaboration and mentorship.</p></div>
+                </label>
+            </div>
+            <div class="overflow-hidden border border-t-0 border-l-1 border-solid border-r-1 border-black">
+                <label>
+                    <input class="absolute opacity-0 peer" type="checkbox">
+                <h1 class="p-5 inline-block text-xl font-medium">What happens if i join and I’m not active?</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block float-right mt-5 mr-10 duration-300 peer-checked:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+                  </svg>
+                <div class="max-h-0 peer-checked:max-h-screen duration-300 ease-in-out"><p class="p-5">Participants who join the program and stop engaging will be given the chance to catch up. You'll also be assigned a 'study-mate' and mentor to help you. However, there is the possibility of not being promoted to the next stage if you remain inactive for too long</p></div>
+                </label>
+            </div>
+            <div class="overflow-hidden border border-t-0 border-l-1 border-solid border-r-1 border-black">
+                <label>
+                    <input class="absolute opacity-0 peer" type="checkbox">
+                <h1 class="p-5 inline-block text-xl font-medium">Can I switch from the part-time track to full-time and vice versa?</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block float-right mt-5 mr-10 duration-300 peer-checked:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+                  </svg>
+                <div class="max-h-0 peer-checked:max-h-screen duration-300 ease-in-out"><p class="p-5">Unfortunately, no, you cannot switch from part-time to full-time and vice-versa</p></div>
+                </label>
+            </div>
+            <div class="overflow-hidden border border-t-0 border-l-1 border-solid border-r-1 border-b-1 border-black">
+                <label>
+                    <input class="absolute opacity-0 peer" type="checkbox">
+                <h1 class="p-5 inline-block text-xl font-medium">Would I have to pay to enroll for the training?</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block float-right mt-5 mr-10 duration-300 peer-checked:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+                  </svg>
+                <div class="max-h-0 peer-checked:max-h-screen duration-300 ease-in-out"><p class="p-5">No, the program is completely free thanks to Ingressive For Good</p></div>
+                </label>
+            </div>  
+        </div>
+            <div class="container mx-auto pt-10">
+                <div class="flex flex-col space-y-8 md:flex md:flex-row md:space-y-0 md:space-x-4 md:justify-center">
+                    <h1 class="mt-2 text-lg">Still got questions?</h1>
+                    <a  class="rounded-full bg-orange p-2 px-6 text-white text-xl" href="#"> Tweet them at us</a>
+                </div>
+            </div>
+    </div>
+</section>
+
+<hr class="divide w-11/12 mx-auto mt-24 md:w-5/6 border border-solid border-b-0 border-t-2">
+
+<section>
+    <div class="container mx-auto">
+        <div class="flex justify-around">
+            <div class="">
+                <img class="mt-10" width="150px" src="image/section7wire.svg" alt="">
+            </div>
+            <div class="flex ">
+                <img class="mt-20 ml-44" width="160px" src="image/Star1.svg" alt="">
+            </div>
+        </div>
+        <h1 class="text-xl text-orange font-semibold text-center mt-0">Structure</h1>
+        <h1 class="text-4xl text-center font-bold">Program Structure</h1>
+        <p class="text-lg text-center pt-2">There are 2 broad paths in this program based on your availability.</p>
+        <br>
+    <img class="" src="image/move.svg" alt="">
+        <div class="container mx-auto flex flex-col space-y-10 justify-between md:flex md:flex-row md:justify-around md:space-y-0 mt-16">
+            <div class="bg-black opacity-90 p-14 space-y-4 rounded-3xl flex justify-between shadow-2xl shadow-pastelRed z-10">
+                <div>
+                        <h1 class="text-white font-bold text-4xl">Full-time</h1>
+                        <p class="text-white">Requires at least 25 hours weekly on program content.</p>
+                        <div>
+                            <h1 class="text-white font-bold text-2xl">Available Tracks:</h1>
+                            <ul class=" list-disc list-inside">
+                                <li class="text-white max-w-sm">Full Stack: Backend (Python, JavaScript), Frontend (HTML, CSS, JavaScript) & DevOps</li>
+                                <li class="text-white ">Design: Figma, Adobe XD</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h1 class="text-white font-bold text-2xl">Phases:</h1>
+                            <ul class="list-disc list-inside">
+                                <li class="text-white ">Training Phase</li>
+                                <li class="text-white">Project Phase</li>
+                            </ul>
+                        </div>
+                    <div>
+                        <h1 class="text-white font-bold text-2xl">Post Program:</h1>
+                        <ul class="list-disc list-inside">
+                            <li class="text-white">Certification of Attendance</li>
+                            <li class="text-white"><a class="underline" href="">Zuri Intership</a><img width="15px" class=" ml-1 mb-1 inline-block" src="image/clarity.svg" alt=""></li>
+                            <li class="text-white"><h1 class="inline-block">Laptop Reward (upgrade or new one)</h1><img width="15px" class="ml-1 mb-1 inline-block" src="image/clarity.svg" alt=""></li>
+                            <li class="text-white"><h1 class="inline-block">Job Placement</h1><img width="15px" class="ml-1 mb-1 inline-block" src="image/clarity.svg" alt=""></li>
+                            <li class="text-white"><h1 class="inline-block">Zuri Talent Pool</h1></li>
+                            <li class="text-white"><h1 class="inline-block">More Training:</h1><img width="15px" class="ml-1 mb-1 inline-block" src="image/clarity.svg" alt="">
+                                <ul class="ml-6">
+                                    <li class="text-white">Interview Prep</li>
+                                    <li class="text-white">Algorithms & Data Structure</li>
+                                    <li class="text-white">Freelance Setup & Training</li>
+                                    <li class="text-white">LinkedIn Optimization</li>
+                                    <li class="text-white">CV Review</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="self-end">
+                    <img class="" width="120px" src="image/hour.png" alt="">
+                </div>
+            </div>
+            <div class="bg-black opacity-90 p-14  space-y-6 rounded-3xl box2 flex justify-between shadow-2xl shadow-pastelRed z-10">
+                <div>
+                    <h1 class="text-white font-bold text-4xl">Part-time</h1>
+                    <p class="text-white">Requires at least 11 hours weekly on program content.</p>
+                    <div>
+                        <h1 class="text-white font-bold text-2xl">Available Tracks:</h1>
+                        <ul class=" list-disc list-inside">
+                            <li class="text-white max-w-sm">Frontend: <ul class="ml-6">HTML, CSS, JavaScript</ul> </li>
+                            <li class="text-white ">Backend: Can only select one backend language <ul class="ml-6"><li>Python,</li><li>PHP,</li><li>JavaScript</li></ul></li>
+                            <li class="text-white"> Design: <ul class="ml-6">Figma</ul></li>
+                        </ul>
+                        <h1 class="text-white font-bold text-2xl">Phases</h1>
+                        <ul class="list-disc list-inside"><li class="text-white">Training Phase</li></ul>
+                        <h1 class="text-white font-bold text-2xl">Post Program:</h1>
+                        <ul class="list-disc list-inside">
+                            <li class="text-white">Certificate of Attendance</li>
+                            <li class="text-white">Zuri Internship</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="self-end">
+                    <img width="180px" src="image/time.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="float-right">
+            <img class="w-52 relative bottom-20" src="image/circle.png" alt="">
+        </div>
+        <div class="mt-16 container mx-auto ml-10">
+            <img width="130px" class="" src="image/circle.png" alt="">
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container mx-auto bg-orange p-6 pt-10 pb-44 rounded-3xl mt-10">
+        <div class="flex justify-around items-center">  
+                <div class="hidden md:block md:w-44">
+                    <img src="image/round.svg" alt="">
+                </div>
+            <div class="flex flex-col justify-center items-center space-y-6">
+                <h1 class="text-white text-lg">Get Started</h1>
+                <h1 class="text-white text-6xl max-w-xl font-bold">Break into the tech industry like a Pro</h1>
+                <a  class="rounded-full bg-white p-2 px-8 text-orange text-xl" href="#">Enroll Now</a>
+            </div>
+            <!-- <div class="relative top-44 right-44 float-left">
+                <img src="image/curve2.svg" alt="">
+            </div>   -->
+            <div class="relative left-80 bottom-20">
+                <img class="" src="image/bend1.svg" alt="">
+            </div>
+            <div class="w-52 self-end relative top-44 left-12">
+                <img src="image/mains.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container mx-auto mt-16 p-4">
+        <div class="flex flex-col justify between items-center mx-auto p-4 md:flex md:flex-row md:justify-between md:items-center">
+            <img src="image/logoooo.svg" alt="">
+            <div class="flex space-x-4">
+                <a href="#"><img src="Image/facebook.svg" alt=""></a>
+                <a href="#"><img src="Image/linkd.svg" alt=""></a>
+                <a href="#"><img src="Image/twitter.svg" alt=""></a>
+                <a href="#"><img src="Image/youtube.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="flex flex-col justify between items-center mx-auto p-4 md:flex md:flex-row md:justify-between md:items-center">
+            <h1>&copy; 2022 Zuri Training</h1>
+            <div class="flex space-x-4">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Ingressive For Good</a>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
-</html>
+</html> 

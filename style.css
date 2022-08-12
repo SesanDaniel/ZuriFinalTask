@@ -4,3 +4,15 @@
     top: 0;
     right: 0;
 }
+
+.img {
+    z-index: -1;
+}
+
+.div {
+    z-index: 2;
+}
+
+.img1 {
+    z-index: 1;
+}
