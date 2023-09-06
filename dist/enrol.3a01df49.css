@@ -1,0 +1,45 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.img {
+  z-index: -1;
+}
+
+.div {
+  z-index: 2;
+}
+
+.img1, .img2 {
+  z-index: 1;
+  position: absolute;
+  bottom: 52%;
+  left: 44%;
+}
+
+.hovering:hover {
+  color: #bb3a0c;
+  text-decoration: underline;
+}
+
+.hoveringB:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.enrollBody {
+  background-image: linear-gradient(to right, #948987, snow);
+  width: 1440px;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=enrol.3a01df49.css.map */

@@ -15,4 +15,52 @@
 
 .img1 {
     z-index: 1;
+    position: absolute;
+    left: 44%;
+    bottom: 52%;
+}
+
+.img2 {
+    z-index: 1;
+    position: absolute;
+    left: 44%;
+    bottom: 52%;
+}
+
+.hovering:hover {
+    text-decoration: underline;
+    color: rgb(187, 58, 12);
+}
+
+.hoveringB:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* Enrol page styling */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.enrollBody {
+    background-image: linear-gradient(to right, #948987, #fffafa);
+    width: 1440px;
+    height: 100vh;
+}
+
+.enrollContainer {
+    background-color: #dc381f;
+    margin: auto;
+    width: 60%;
+    height: 80%;
+    margin-top: 5%;
+    
 }
